@@ -9,8 +9,8 @@
                  [org.clojure/tools.cli "0.3.5"]
                  [org.clojure/tools.namespace "0.2.11"]
                  ;; db
-                 [starcity/blueprints "2.7.0-SNAPSHOT" :exclusions [com.datomic/datomic-free]]
-                 [starcity/teller "1.3.1-SNAPSHOT"]
+                 [starcity/blueprints "2.7.0" :exclusions [com.datomic/datomic-free]]
+                 [starcity/teller "1.4.0"]
                  ;; services
                  [starcity/stripe-clj "0.3.3"]
                  [starcity/mailer "0.5.0"]
